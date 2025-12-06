@@ -95,9 +95,9 @@ def count_paths_part2(filename):
 # Usage:
 if __name__ == "__main__":
     # Part 1
-    result1 = count_paths_part1('day_11_dec.txt')
+    result1 = count_paths_part1('day_11.txt')
     print(f"Part 1: {result1} paths from 'you' to 'out'")
     
     # Part 2
-    result2 = count_paths_part2('day_11_dec.txt')
+    result2 = count_paths_part2('day_11.txt')
     print(f"Part 2: {result2} paths from 'svr' to 'out' that visit both 'dac' and 'fft'")

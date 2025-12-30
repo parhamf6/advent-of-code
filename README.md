@@ -11,25 +11,20 @@ Advent of Code is an annual coding challenge that runs from December 1st to Dece
 ```
 advent-of-code/
 ├── 2025/
-│   ├── day01/
-│   │   ├── solution.py
-│   │   ├── input.txt
-│   │   └── README.md
-│   ├── day02/
-│   │   ├── solution.py
-│   │   ├── input.txt
-│   │   └── README.md
+│   ├── Day_1/
+│   │   ├── Day_1.py
+│   │   ├── Day_1.txt
+│   ├── Day_2/
+│   │   ├── Day_2.py
+│   │   ├── Day_2.txt
 │   └── ...
-├── utils/
-│   └── helpers.py
-├── requirements.txt
 └── README.md
 ```
 
 Each day's folder contains:
-- `solution.py` - The solution code for both parts
-- `input.txt` - My personal puzzle input (this would be the sample not the full input)
-- `README.md` - Problem description and notes
+- `Day_n.py` - The solution code for both parts
+- `Day_n.txt` - Puzzle input (input sample that used in question itself not the each user personal input)
+<!--- `README.md` - Problem description and notes-->
 
 
 ## Approach
@@ -37,14 +32,13 @@ Each day's folder contains:
 I aim to write clean, readable Python code that:
 - Solves both parts of each day's puzzle
 - Uses appropriate data structures and algorithms
-- Includes comments explaining the logic
 - Balances clarity with performance
 
 ## Notes
 
 - Input files are personal to each participant and should not be shared publicly per Advent of Code's creator's request
 - Solutions are my own work, though I may reference algorithms or techniques when learning
-- Some solutions are optimized for readability over performance
+- solutions are optimized for readability over performance
 - I update this repo as I complete each day's challenges
 
 ## Resources

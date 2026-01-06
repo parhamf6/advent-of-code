@@ -11,12 +11,12 @@ Advent of Code is an annual coding challenge that runs from December 1st to Dece
 ```
 advent-of-code/
 ├── 2025/
-│   ├── Day_1/
-│   │   ├── Day_1.py
-│   │   ├── Day_1.txt
-│   ├── Day_2/
-│   │   ├── Day_2.py
-│   │   ├── Day_2.txt
+│   ├── Day_01/
+│   │   ├── Day_01.py
+│   │   ├── Day_01.txt
+│   ├── Day_02/
+│   │   ├── Day_02.py
+│   │   ├── Day_02.txt
 │   └── ...
 └── README.md
 ```
